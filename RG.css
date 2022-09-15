@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.img {
+  position: absolute;
+  left: 54.84%;
+  right: 12.88%;
+  top: 29.99%;
+  bottom: 25.52%;
+}
+
+.root-container {
+  background-color: #fff;
+}
+
+/* Header/Blog Title */
+.header {
+  text-align: right;
+  background: #1ac073;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-left: 132px;
+  padding-right: 132px;
+  padding-top: 170px;
+}
+
+.header > div > img {
+  height: 400px;
+  width: 400px;
+}
+
+.header p:nth-child(1),
+.header p:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 0px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.header p:nth-child(3) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.header-left-pane {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-left-search {
+  width: 398px;
+  height: 58px;
+  left: 0px;
+  top: 259px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.search-input {
+  height: inherit;
+  border: none;
+  width: 286px;
+  font-size: 16px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-button {
+  border: none;
+  background: orange;
+  height: inherit;
+  width: 98px;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 16px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #1ac073;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 132px;
+  padding-right: 132px;
+  height: 80px;
+}
+
+.nav-first {
+  width: 89px;
+  height: 20px;
+  left: -14.5px;
+
+  font-family: "Squada One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 0px;
+  /* identical to box height, or 62% */
+
+  letter-spacing: -0.012em;
+
+  color: #ffffff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+.nav-third {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.nav-third > span:nth-child(2) {
+  margin-left: 36px;
+}
+.nav-second {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 277px;
+  height: 250px;
+  border-radius: 5px;
+  background: url(.jpg), #797979;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.content {
+  background-color: #f7f8fa;
+  height: auto;
+  padding-left: 132px;
+  padding-right: 132px;
+  padding-top: 40px;
+}
+
+.content-heading {
+  width: 250px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 24px;
+  padding-top: unset;
+  letter-spacing: -0.012em;
+
+  color: #000000;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.content-img {
+  height: 216px;
+  width: 216px;
+}
+
+.content-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-footer-text-second-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.img-footer-text-second-line > * {
+  font-size: 12px;
+}
+
+.star-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.add-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.content-img-footer {
+  background: #fff;
+  margin-top: -10px;
+  padding: 6px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 64px;
+}
+
+.star-with-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-with-time > div {
+  display: flex;
+  border: 1px solid #f7f8fa;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  padding: 1px 3px 1px 3px;
+}
+
+.star-with-time > span {
+  margin-left: 6px;
+  border: 1px solid #f7f8fa;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgb(0 0 0 / 25%);
+  padding: 1px 3px 1px 3px;
+}

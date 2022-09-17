@@ -236,6 +236,12 @@ img {
 .add-icon {
   width: 22px;
   height: 22px;
+  cursor: pointer;
+}
+
+.minus-icon {
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .content-img-footer {
@@ -298,6 +304,24 @@ img {
 
 .slick-list {
   margin-left: 73px !important;
+}
+
+.popular-section-image-width {
+  width: 216px !important;
+}
+
+.popular-section-image-container {
+  border: 1px solid #f3ba00;
+  width: 72px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-section-image-count {
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .popular-section-footer {

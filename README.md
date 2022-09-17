@@ -17,4 +17,4 @@ d. Once enabled it will come under bottom drawer of VSCode hence clicking on it 
 
 # Demo
 
-a. Demo is available here [a link]`https://rit26-july.github.io/home.html`\
+a. Demo is available [HERE](`https://rit26-july.github.io/home.html`)

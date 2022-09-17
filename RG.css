@@ -269,6 +269,48 @@ img {
   padding: 1px 3px 1px 3px;
 }
 
+.popular-items-section {
+  padding-left: 132px;
+  padding-right: 132px;
+  background-color: #f7f8fa;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.popular-heading {
+  height: 24px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 24px;
+  padding-top: unset;
+  letter-spacing: -0.012em;
+  margin-top: unset;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #1ac073 !important;
+  font-size: 36px !important;
+}
+
+.slick-list {
+  margin-left: 73px !important;
+}
+
+.popular-section-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  border-radius: 10px;
+}
+
+.popular-dish-button {
+  border-radius: 10px !important;
+  height: 48px !important;
+}
 .video-section-container {
   height: auto;
   padding-left: 132px;

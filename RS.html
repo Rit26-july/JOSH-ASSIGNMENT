@@ -581,6 +581,7 @@
         </div>
         <div class="popular-section-footer">
           <input
+            id="dishRequest"
             type="button"
             class="button-class popular-dish-button"
             value="Request a Dish"
@@ -669,6 +670,51 @@
             class="button-class popular-dish-button"
             value="Back to menu"
           />
+        </div>
+      </div>
+    </div>
+    <div id="myDishModal" class="modal">
+      <div class="modal-content">
+        <div class="empty-cart-content">
+          <p class="empty-cart-heading" style="font-weight: 800">
+            Request a Dish
+          </p>
+          <div class="dish-content-box">
+            <div>
+              <label for="name" class="dish-label">Name*</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter name of the dish"
+                class="dish-input"
+              />
+            </div>
+            <div style="margin-top: 16px">
+              <label for="file" class="dish-label">Upload an image</label>
+              <input
+                type="text"
+                name="file"
+                id="file"
+                placeholder="Paste a URL"
+                class="dish-input"
+              />
+            </div>
+            <div class="dish-button-content">
+              <input
+                id="dishCancel"
+                type="button"
+                class="button-class popular-dish-button"
+                value="Cancel"
+              />
+              <input
+                id="dishSubmit"
+                type="button"
+                class="button-class popular-dish-button"
+                value="Submit Request"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 # JOSH-ASSIGNMENT
 
-a. This project is built on VSCode using pure HTML, CSS and JS
+a. This project is built on VSCode using pure HTML, CSS and JS\
 b. All the images are used from FIGMA and are present under resources folder
 c. For the carousel part, an open source library named slick is used and all slick related files are present under slick folder
 d. For running this project VSCode extension of Live Server is used which hot reloads and provides good support for development
